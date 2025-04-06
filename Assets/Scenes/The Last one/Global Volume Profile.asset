@@ -90,12 +90,12 @@ MonoBehaviour:
   active: 1
   redOutRedIn:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 114
   redOutGreenIn:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   redOutBlueIn:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   greenOutRedIn:
     m_OverrideState: 0
@@ -131,6 +131,28 @@ MonoBehaviour:
   intensity:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &-2667113405128672080
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5485954d14dfb9a4c8ead8edb0ded5b1, type: 3}
+  m_Name: LiftGammaGain
+  m_EditorClassIdentifier: 
+  active: 1
+  lift:
+    m_OverrideState: 1
+    m_Value: {x: 0.95938945, y: 1, z: 0.9723072, w: 0}
+  gamma:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.999163, z: 0.9687701, w: 0}
+  gain:
+    m_OverrideState: 1
+    m_Value: {x: 0.96248823, y: 0.9527666, z: 1, w: 0}
 --- !u!114 &-1925128019421640216
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -192,7 +214,7 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 13.3
   tint:
     m_OverrideState: 1
     m_Value: 5
@@ -244,6 +266,7 @@ MonoBehaviour:
   - {fileID: 4547583740007757762}
   - {fileID: 560854300463080837}
   - {fileID: -1765020469533134248}
+  - {fileID: -2667113405128672080}
 --- !u!114 &560854300463080837
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -259,7 +282,7 @@ MonoBehaviour:
   active: 1
   color:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    m_Value: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   center:
     m_OverrideState: 0
     m_Value: {x: 0.5, y: 0.5}
@@ -296,12 +319,12 @@ MonoBehaviour:
     m_Value: 0
   scatter:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.496
   clamp:
     m_OverrideState: 0
     m_Value: 65472
   tint:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   highQualityFiltering:
     m_OverrideState: 0
@@ -566,7 +589,7 @@ MonoBehaviour:
     m_Value: 0
   contrast:
     m_OverrideState: 1
-    m_Value: 15
+    m_Value: 2.3
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -648,7 +671,7 @@ MonoBehaviour:
     m_Value: 0
   quality:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   intensity:
     m_OverrideState: 1
     m_Value: 0.509

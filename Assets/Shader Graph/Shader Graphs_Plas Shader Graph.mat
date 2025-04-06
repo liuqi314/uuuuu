@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 76a4df36fa6c664469a0fb87da37e78f, type: 3}
+        m_Texture: {fileID: 2800000, guid: a3793d6caade65c4387e401ae964d396, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -51,8 +51,8 @@ Material:
     - _QueueOffset: 0
     - _SurfaceMovementSpeed: 0.01
     m_Colors:
-    - _BoarderColor: {r: 0.2176561, g: 0, b: 1, a: 1}
-    - _Color: {r: 0.1545409, g: 2.5202043, b: 2.096163, a: 0}
+    - _BoarderColor: {r: 0.57632315, g: 0.5534141, b: 1.3552257, a: 1}
+    - _Color: {r: 0, g: 5.9428377, b: 11.282077, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8265616956380269023
 MonoBehaviour:
